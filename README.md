@@ -29,7 +29,7 @@ Created a landing page which consists of:
 - At last, password will be created after answering (Yes or No) for each prompt.
 - Copy and save your password at somewhere safe. 
 
-
+## Screenshot of the website
 
 ![My Image](assets/images/pwgen.png)
 
