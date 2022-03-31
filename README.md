@@ -33,7 +33,9 @@ Created a landing page which consists of:
 
 ![My Image](assets/images/pwgen.png)
 
-![](https://media.giphy.com/media/4c5R5o6HwogNItxjLG/giphy.gif)
+![My Gif](https://media.giphy.com/media/4c5R5o6HwogNItxjLG/giphy.gif)
+
+
 
 ## Technical Checklist: 
 
@@ -68,7 +70,6 @@ Repository contains quality readme with description, screenshot, link to deploye
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-* [Flaticon] (https://www.flaticon.com)
 
 ## Deployed Link
 
