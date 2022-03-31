@@ -26,12 +26,14 @@ Created a landing page which consists of:
 - A button that says "Generate Password".
 - An alert prompt asking the desired number of characters for password, with the range of between 8 to 128 characters.
 - Prompts asking for the selection (Yes or No) for password criteria.
-- At last, password will be created after answering (Yes or No) for each prompt.
-- Copy and save your password at somewhere safe. 
+- Password will be created after answering (Yes or No) for each prompt.
+ 
 
 ## Screenshot of the website
 
 ![My Image](assets/images/pwgen.png)
+
+![](https://media.giphy.com/media/4c5R5o6HwogNItxjLG/giphy.gif)
 
 ## Technical Checklist: 
 
