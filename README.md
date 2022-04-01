@@ -1,4 +1,6 @@
 # password-generator
+This is an application that generates a random password based on user-selected criteria.
+This application will run in the browser. 
 
 ## Acceptance Criteria
 - Prompts are presented for password criteria when generating password.
@@ -21,12 +23,21 @@ SO THAT I can create a strong password that provides greater security.
 
 ## What you will find on my website:
 
-Created a landing page which consists of:
-- A header that says "Password Generator".
-- A button that says "Generate Password".
-- An alert prompt asking the desired number of characters for password, with the range of between 8 to 128 characters.
-- Prompts asking for the selection (Yes or No) for password criteria.
-- Password will be created after answering (Yes or No) for each prompt.
+Step 1: Created a landing page and created flex box that's centered.
+
+Step 2: Add event listener to generate button. A button that says "Generate Password".
+
+Step 3: Used Window.prompt() asking the (input) desired number of characters for password, with the range of between 8 to 128 characters. 
+
+Step 4: Used Window.alert() to tell user to select a number between 8-128 characters. The prompt will only continue when the if conditions are met.
+
+Step 5: Functions and window.prompts are created with if conditional statements to determine if users want to include uppercase, lowercase, numbers or special characters in their password. 
+
+Step 6: A generatePassword function is created to take all the input from the previous functions. Generate a password using a random number generator and the charAt method.
+
+Step 7: Used Math.floor() and Math.random() functions.
+
+
  
 
 ## Screenshot of the website

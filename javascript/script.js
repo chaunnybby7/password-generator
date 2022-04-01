@@ -1,11 +1,11 @@
 //Assignment Code - variable names to the uppercase, lowercase, numbers and symbols
 
 var generateBtn = document.querySelector("#generate");
-var lowerCases = "abcdefghijklmnopqrstuvwxyz";
+var lowerCases = "abcdefghijklmnopqrstuvwxyz"; 
 var upperCases = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var number = "0123456789";
 var symbol = "!@#$%^&*()_-+={}[];:'`~<,>.?/|"
-var pwLength;
+var pwLength; 
 var uppercaseCheck;
 var numberCheck;
 var specialCheck;
@@ -14,7 +14,7 @@ var specialCheck;
 function determineLength(){
     pwLength = prompt("Please enter the number of characters you want for your new password. (between 8-128 characters): \n(Please type in a number between 8 to 128.) ");
 
-    if (pwLength < 8){
+    if (pwLength < 8){ /*If the input number is less than 8, there will be an alert message telling you the password length must be between 8 - 128. */
       alert("Password length must be a number between 8-128 characters");
       determineLength();
     } else if (pwLength > 128){
@@ -141,9 +141,10 @@ else{
   characters === lowerCases;
 }
 
-  for(var i = 0; i < pwLength; i++){
-    password += characters.charAt(Math.floor(Math.random() * characters.length));
-  }
+  for(var i = 0; i < pwLength; i++){ 
+    /* Now, if you run the code, you’ll get your desired password with length, randomization, numbers, and characters specified or not.*/
+    password += characters.charAt(Math.floor(Math.random() * characters.length)); 
+  } 
   return password;
 }
 
